@@ -127,7 +127,7 @@ export default function DareCardGame() {
         animate={{ opacity: 1, y: 0 }}
         className="text-4xl font-bold mb-8 text-center"
       >
-        Success Dare Cards 🎴
+        Success Dares 🎴
       </motion.h1>
 
       {/* SHUFFLE BUTTON */}
@@ -140,7 +140,7 @@ export default function DareCardGame() {
         whileTap={{ scale: 0.95 }}
         className="bg-purple-600 hover:bg-purple-500 px-6 py-3 rounded-2xl shadow-xl text-lg font-semibold relative select-none"
       >
-        If you Dare
+        Shuffle Dare
         <span className="block text-xs mt-1 opacity-70">(click)</span>
       </motion.button>
 
