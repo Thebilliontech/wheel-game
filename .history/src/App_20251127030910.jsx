@@ -74,7 +74,7 @@ export default function DareCardGame() {
       secretDareActivated.current = true;
       pickDare(true); // secret dare
       holdStartTime.current = null;
-    }, 2000); // 3 seconds
+    }, 3000); // 3 seconds
   };
 
   const handleHoldEnd = () => {
