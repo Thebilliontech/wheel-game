@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth Dark Gradient Background */
+body {
+  @apply bg-gradient-to-b from-gray-900 to-black text-gray-200 min-h-screen;
+}
